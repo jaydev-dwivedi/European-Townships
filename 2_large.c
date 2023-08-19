@@ -16,7 +16,7 @@ int main()
             {
                 scanf("%f %f %f %f", &total, &r, &s, &h);
 
-                float total_walls = 6 * h + 4 * s + 3 * r;
+                float total_walls = 6 * h + 4 * s - 3 * r;
 
                 accent_color = accent_color + (float)(total_walls / 3) * (1.5);
                 regular_color = regular_color + (float)((2 * total_walls) / 3) * (2.25);
